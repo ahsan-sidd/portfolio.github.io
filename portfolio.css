@@ -1,0 +1,152 @@
+nav li {
+    display:inline;
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+    padding: 0 20px;
+    font-size: larger;
+}
+nav ul{
+    margin:30px auto;
+    text-align: center;
+}
+nav {
+    top:0;
+    height: 77px;
+    background-color: #FFCDB0;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px black;
+    border-top:solid 1px black;
+    z-index: 10;
+}
+body {
+    background-color: #A7D5FF;
+    margin:0 auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    font-family: sans-serif;
+}
+div {
+    margin:231px auto;
+    height:850px;
+    width:1105px;
+    background-color: white;
+    border-radius: 38px;
+    display: block;
+    animation: opacity 1s ease-in-out;
+}
+@keyframes opacity {
+    /* Add stages below */
+    30% {
+      opacity: .5;
+    }
+    70% {
+        opacity: 1;
+    }
+  }
+div h1{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    left:500px;
+    top:140px;
+    font-size: 30px;
+    animation: rightLeft 1s;
+}
+@keyframes rightLeft {
+    /* Add stages below */
+    30% {
+      transform: translate(50px, 0px);
+    }
+    70% {
+      transform: translate(-50px, 0px);
+    }
+  }
+div img{
+    position: relative;
+    border-radius: 50%;
+    margin-top: 30px;
+    left:200px;
+    z-index: 2;
+}
+div .circle{
+    position: relative;
+    height: 206px;
+    width: 206px;
+    border-radius: 50%;
+    background-color: #FFA776;
+    bottom:440px;
+    right:301.5px;
+    z-index: 1;
+}
+div .circle2{
+    position: relative;
+    height: 206px;
+    width: 206px;
+    border-radius: 50%;
+    background-color: #FFCDB0;
+    bottom:878px;
+    right:353px;
+}
+div p{
+    position: relative;
+    bottom:1000px;
+    margin:0 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.about{
+    position: relative;
+    top: 154px;
+    
+}
+footer{
+    background-color: #ffffff;
+    border-top:solid 1px black;
+    bottom: 0;
+    padding: 30px 0px;
+    border-bottom: solid 1px black;
+    margin-top: 308px;
+    width:2000px;
+}
+footer h2{
+    font-family: sans-serif;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 378px;
+    margin-right: 0;
+    position: relative;
+    font-size: 30px;
+}
+footer p{
+    font-family: sans-serif;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 378px;
+    text-decoration: underline;
+    position: relative;
+}
+.logo{
+    display: inline-block;
+    margin:10px 20px;
+    position: relative;
+    height:50px;
+    
+}
+
+footer section{
+    display: inline-block;
+}
+@media only screen and (max-width: 1440px){
+    .div{
+        margin: auto;
+        width: 50%;
+    }
+    .about{
+        margin: auto;
+    }
+}
