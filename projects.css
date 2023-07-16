@@ -133,3 +133,100 @@ footer section{
     display: inline-block;
     margin-right: 200px;
 }
+@media only screen and (min-width:768px)and (max-width:1023px){
+    .about{
+        width:50%;
+        height: 1500px;
+    }
+    div img,div .circle,div .circle2{
+        scale:0.75;
+    }
+    div img{
+        position: relative;
+        left:110px;
+    }
+    div .circle{
+        position: relative;
+        left:0px;
+    }
+    div .circle2{
+        position: relative;
+        left:-20px;
+    }
+    div h1{
+        font-size: 20px;
+        left:80px;
+        top:300px;
+        margin:auto;
+    }
+    footer p,footer h2,.logo{
+        right:300px;
+    }
+    .logo{
+        right:250px;
+        height:40px;
+        display: inline-block;
+        margin:0px 0px;
+        position: relative;
+    }
+    footer h2{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:425px)and (max-width:767px){
+    .about{
+        width:90%;
+        height: 1500px;
+    }
+    div img,div .circle,div .circle2{
+        scale:0.75;
+    }
+    div img{
+        position: relative;
+        left:90px;
+    }
+    div .circle{
+        visibility: hidden;
+        position: relative;
+        left:0px;
+    }
+    div .circle2{
+        visibility: hidden;
+        position: relative;
+        left:-20px;
+    }
+    div h1{
+        font-size: 20px;
+        left:80px;
+        top:300px;
+        margin:auto;
+    }
+    footer p,footer h2,.logo{
+        right:300px;
+    }
+    .logo{
+        bottom:50px;
+        left:60px;
+        height:50px;
+        display: inline-block;
+        margin:0px 10px;
+        position: relative;
+    }
+    footer h2{
+        visibility: hidden;
+        font-size: 20px;
+    }
+    footer p{
+        visibility: hidden;
+        font-size: 16px;
+    }
+    footer{
+        padding:0px 0px;
+    }
+    nav li{
+        font-size: large;
+    }
+}
