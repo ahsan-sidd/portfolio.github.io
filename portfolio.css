@@ -187,7 +187,7 @@ footer section{
         font-size: 16px;
     }
 }
-@media only screen and (min-width:425px)and (max-width:767px){
+@media only screen and (max-width:425px){
     .about{
         width:90%;
         height: 1500px;
