@@ -24,6 +24,9 @@ body {
     background-color: #A7D5FF;
     margin:0 auto;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 a {
     text-decoration: none;
     color: black;
