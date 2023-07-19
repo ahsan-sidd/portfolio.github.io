@@ -144,6 +144,37 @@ footer p{
 footer section{
     display: inline-block;
 }
+@media only screen and (min-width:1024px){
+    .about{
+        width:50%;
+        height: 1300px;
+    }
+    div img,div .circle,div .circle2{
+        scale:0.75;
+    }
+    div img{
+        position: relative;
+        left:180px;
+    }
+    div .circle{
+        position: relative;
+        left:0px;
+    }
+    div .circle2{
+        position: relative;
+        left:-20px;
+    }
+    div h1{
+        font-size: 20px;
+        left:140px;
+        top:300px;
+        margin:auto;
+    }
+    footer p,footer h2,.logo{
+        right:200px;
+    }
+
+}
 @media only screen and (min-width:768px)and (max-width:1023px){
     .about{
         width:50%;
@@ -187,7 +218,7 @@ footer section{
         font-size: 16px;
     }
 }
-@media only screen and (max-width:425px){
+@media only screen and (min-width:425px)and (max-width:767px){
     .about{
         width:90%;
         height: 1500px;
